@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.upen.personalityapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_persona"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_persona"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ResultsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_results"
+            android:parentActivityName=".MainActivity1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.upen.personalityapp.MainActivity1" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NeedsInfoActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_needs_info"
+            android:parentActivityName=".ResultsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.upen.personalityapp.ResultsActivity" />
+        </activity>
+        <activity
+            android:name=".PersonalityDescActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_personality_desc"
+            android:parentActivityName=".ResultsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.upen.personalityapp.ResultsActivity" />
+        </activity>
+        <activity
+            android:name=".PersonalityInfoActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_personality_info"
+            android:parentActivityName=".PersonalityDescActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.upen.personalityapp.PersonalityDescActivity" />
+        </activity>
+        <activity
+            android:name=".ValuesInfoActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_values_info"
+            android:parentActivityName=".ResultsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.upen.personalityapp.ResultsActivity" />
+        </activity>
+        <activity
+            android:name=".consprefInfoActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_conspref_info"
+            android:parentActivityName=".ResultsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.upen.personalityapp.ResultsActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity1"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_main1"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewTweetsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_view_tweets"
+            android:parentActivityName=".MainActivity1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.upen.personalityapp.MainActivity1" />
+        </activity>
+        <activity
+            android:name=".HowWorks"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_how_works"
+            android:parentActivityName=".MainActivity1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.upen.personalityapp.MainActivity1" />
+        </activity>
+        <activity
+            android:name=".InformationActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_information"
+            android:parentActivityName=".MainActivity1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.upen.personalityapp.MainActivity1" />
+        </activity>
+    </application>
+</manifest>

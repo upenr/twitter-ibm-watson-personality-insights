@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Persona</string>
+    <string name="title_activity_results">Results</string>
+    <string name="tab_text_1">Personality</string>
+    <string name="tab_text_2">Needs</string>
+    <string name="tab_text_3">Values</string>
+    <string name="tab_text_4">Consumer</string>
+    <string name="tab_text_5">Word Count</string>
+    <string name="tab_text_6">Language</string>
+    <string name="tab_text_7">Warnings</string>
+    <string name="action_share">Share App Link</string>
+    <string name="action_info">Info</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_tweets">View Analyzed Tweets</string>
+    <string name="action_copy">© Copyright 2018 owned by the developer of this app.\n\nThis software is provided \"as is\", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.\n\nContact the developer at: pingrange010101@gmail.com.
+    \n\nBTC: 1FuLeygx8ecVSijzsFso4FJuLP192vE3Rk\nETH: 0x186c46307f8aC7875865789f0a826ad42C72100e\nBCH: 17AebEbzfZXwjX8JfTP3GhRKTNec97NqFx\nLTC: LSum6MECw3jAnmonnnAspvhZGT5jknB6b9</string>
+    <string name="nav_header_title">Analyze Twitter Personalities</string>
+    <string name="nav_header_subtitle">With IBM Watson AI</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6716761053101068/1012548636</string>
+    <string name="greater_than">>&#160;</string>
+    <string name="touch_for_more">Touch to find out more about this</string>
+    <string name="percentile_text">&#160;% of sample population</string>
+    <string name="title_activity_needs_info">Needs Information</string>
+    <string name="title_activity_personality_desc">Personality Description</string>
+    <string name="title_activity_personality_info">Personality Information</string>
+    <string name="title_activity_values_info">Values Information</string>
+    <string name="title_activity_conspref_info">Consumer Preferences Info</string>
+    <string name="title_activity_main1">Watson AI Persona</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_view_tweets">Analyzed Tweets</string>
+    <string name="title_activity_how_works">Science behind the service</string>
+    <string name="title_activity_information">Information</string>
+</resources>
