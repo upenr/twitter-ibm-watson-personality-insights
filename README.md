@@ -1,3 +1,4 @@
+## Section 7 Optional ##
 This is an Android application written by Upendra Rajan to use IBM Watson Personality Insights to analyze public Twitter profiles.
 
 It helps you get deeper personality insights on several dimensions, including personality traits, values, needs and consumer preferences.
